@@ -2,12 +2,12 @@
 # This file is distributed under the same license as the WordPress - 6.3.x - Development - Administration package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2023-09-13 14:30:47+0000\n"
+"PO-Revision-Date: 2023-09-22 10:20:10+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: GlotPress/4.0.0-alpha.7\n"
+"X-Generator: GlotPress/4.0.0-alpha.8\n"
 "Language: sv_SE\n"
 "Project-Id-Version: WordPress - 6.3.x - Development - Administration\n"
 
@@ -1600,7 +1600,7 @@ msgstr "Visa temainformation för %s"
 #. translators: Hidden accessibility text.
 #: wp-admin/site-health.php:166
 msgid "Toggle extra menu items"
-msgstr "Växla visning av extra menyobjekt till/från"
+msgstr "Visa/dölj extra menyobjekt"
 
 #. translators: %s: The currently displayed tab.
 #: wp-admin/site-health.php:43
@@ -4460,7 +4460,7 @@ msgstr "Din webbplats är konfigurerad så att den loggar eventuella fel i en fi
 
 #: wp-admin/includes/class-wp-site-health.php:1496
 msgid "Debug mode is often enabled to gather more details about an error or site failure, but may contain sensitive information which should not be available on a publicly available website."
-msgstr "Felsökningsläge aktiveras ofta för att samla in mer information om ett fel eller en webbplats som inte fungerar. Men de kan innehålla känslig information som inte borde vara publikt tillgänglig."
+msgstr "Felsökningsläge aktiveras ofta för att samla in mer information om ett fel eller en webbplats som inte fungerar. Men denna information kan innehålla känslig information som inte bör vara offentligt tillgänglig."
 
 #: wp-admin/includes/class-wp-site-health.php:1488
 msgid "Your site is not set to output debug information"
@@ -5975,7 +5975,7 @@ msgstr "Rapporten skapad för"
 #. translators: %s: Exporter array index.
 #: wp-admin/includes/ajax-actions.php:4983
 msgid "Exporter array at index %s does not include a friendly name."
-msgstr "Exportmatrisen vid index %s innehåller inget filtrerat användarnamn."
+msgstr "Array för export vid index %s innehåller inget filtrerat användarnamn."
 
 #: wp-admin/erase-personal-data.php:13
 msgid "Sorry, you are not allowed to erase personal data on this site."
@@ -6026,7 +6026,7 @@ msgstr "Exportören innehåller inte något återanrop: %s."
 #. translators: %s: Exporter array index.
 #: wp-admin/includes/ajax-actions.php:4976
 msgid "Expected an array describing the exporter at index %s."
-msgstr "Förväntade en matris som beskriver exportören vid index %s."
+msgstr "En array som beskriver exportören vid index %s förväntades."
 
 #: wp-admin/includes/ajax-actions.php:4962
 msgid "Exporter index is out of range."
@@ -6285,7 +6285,7 @@ msgstr "Förväntade nyckeln num_items_removed i svarsmatrisen från raderingsru
 #. translators: 1: Eraser friendly name, 2: Eraser array index.
 #: wp-admin/includes/ajax-actions.php:5204
 msgid "Did not receive array from %1$s eraser (index %2$d)."
-msgstr "Mottog ingen matris från från raderingsrutinen %1$s (index %2$d)."
+msgstr "Mottog inte array från raderingsrutinen %1$s (index %2$d)."
 
 #. translators: %d: Eraser array index.
 #: wp-admin/includes/ajax-actions.php:5168
@@ -6595,7 +6595,7 @@ msgstr "<strong>Inställningar</strong> &ndash; Denna sida visar en lista med al
 #. translators: %s: URL to Network Themes screen.
 #: wp-admin/includes/ms.php:1149
 msgid "<strong>Themes</strong> &mdash; This area shows themes that are not already enabled across the network. Enabling a theme in this menu makes it accessible to this site. It does not activate the theme, but allows it to show in the site&#8217;s Appearance menu. To enable a theme for the entire network, see the <a href=\"%s\">Network Themes</a> screen."
-msgstr "<strong>Teman</strong> &ndash; Här visas teman som ännu inte är gjorts tillgängliga för hela nätverket. När man tillgängliggör ett tema i denna meny blir det tillgängligt för webbplatsen. Temat aktiveras inte, men kommer att kunna visas i webbplatsens menu för utseende. Se sidan <a href=\"%s\">Nätverksteman</a> för att göra ett tema tillgängligt för hela nätverket."
+msgstr "<strong>Teman</strong> &ndash; Här visas teman som ännu inte är gjorts tillgängliga för hela nätverket. När man tillgängliggör ett tema i denna meny blir det tillgängligt för webbplatsen. Temat aktiveras inte, men kommer att kunna visas i webbplatsens meny för utseende. Se sidan <a href=\"%s\">Nätverksteman</a> för att göra ett tema tillgängligt för hela nätverket."
 
 #: wp-admin/includes/ms.php:1146
 msgid "<strong>Users</strong> &mdash; This displays the users associated with this site. You can also change their role, reset their password, or remove them from the site. Removing the user from the site does not remove the user from the network."
@@ -7990,7 +7990,7 @@ msgstr "Hämta version %s"
 #. translators: %s: Hidden accessibility text. Meta box title.
 #: wp-admin/includes/template.php:1415
 msgid "Toggle panel: %s"
-msgstr "Slå på/av panel: %s"
+msgstr "Visa/dölj panel: %s"
 
 #: wp-admin/includes/post.php:1884
 msgid "Saving revision&hellip;"
@@ -8537,7 +8537,7 @@ msgstr "Huvudmeny"
 
 #: wp-admin/includes/file.php:2551
 msgid "Enter the location on the server where the public and private keys are located. If a passphrase is needed, enter that in the password field above."
-msgstr "Ange sökvägen på servern där de publika och privata nycklarna finns. Om en lösenordsfras behövs anger du den i ovanstående lösenordsfält."
+msgstr "Ange sökvägen på servern där de offentliga och privata nycklarna finns. Om en lösenordsfras behövs anger du den i ovanstående lösenordsfält."
 
 #. translators: %s: Number of users.
 #: wp-admin/users.php:611
@@ -8970,7 +8970,7 @@ msgstr "Omdömen"
 #. translators: %s: Support email address.
 #: wp-admin/includes/class-wp-automatic-updater.php:881
 msgid "The WordPress team is willing to help you. Forward this email to %s and the team will work with you to make sure your site is working."
-msgstr "Teamet bakom WordPress är villiga att hjälpa dig. Vidarebefordra detta e-postmeddelande till %s så kommer teamet att hjälpa dig och försäkra sig om att din webbplats fungerar."
+msgstr "WordPress-teamet är villigt att hjälpa dig. Vidarebefordra detta e-postmeddelande till %s så kommer teamet att arbeta med dig för att se till att din webbplats fungerar."
 
 #: wp-admin/includes/class-wp-theme-install-list-table.php:66
 msgctxt "themes"
@@ -9022,7 +9022,7 @@ msgstr "Filtrering efter:"
 
 #: wp-admin/includes/media.php:3273
 msgid "Displayed on attachment pages."
-msgstr "Visas på bilagssidan."
+msgstr "Visas på bilagssidor."
 
 #: wp-admin/includes/image-edit.php:290
 msgid "You can edit the image while preserving the thumbnail. For example, you may wish to have a square thumbnail that displays just a section of the image."
@@ -9248,7 +9248,7 @@ msgstr "När du förhandsgranskar på mindre skärmar kan du använda minimering
 
 #: wp-admin/themes.php:174
 msgid "The theme being previewed is fully interactive &mdash; navigate to different pages to see how the theme handles posts, archives, and other page templates. The settings may differ depending on what theme features the theme being previewed supports. To accept the new settings and activate the theme all in one step, click the Activate &amp; Publish button above the menu."
-msgstr "Temat som förhandsgranskas är fullt interaktivt &ndash; navigera dig runt på olika sidor för att se hur temat i fråga hanterar inlägg, arkiv och andra sidmallar. Inställningarna kan skilja sig beroende på vilka funktioner det förhandsgranskade temat stöder. För att använda de nya inställningarna och aktivera temat, allt på en gång, klickar du på knappen Aktivera och publicera ovanför menyn."
+msgstr "Temat som förhandsgranskas är fullt interaktivt &ndash; navigera till olika sidor för att se hur temat hanterar inlägg, arkiv och andra sidmallar. Inställningarna kan skilja sig beroende på vilka funktioner det förhandsgranskade temat stöder. För att använda de nya inställningarna och aktivera temat, allt på en gång, klickar du på knappen Aktivera och publicera ovanför menyn."
 
 #: wp-admin/themes.php:173
 msgid "Tap or hover on any theme then click the Live Preview button to see a live preview of that theme and change theme options in a separate, full-screen view. You can also find a Live Preview button at the bottom of the theme details screen. Any installed theme can be previewed and customized in this way."
@@ -10321,7 +10321,7 @@ msgstr "Om du vill installera ett tillägg du har laddat ner någon annanstans s
 
 #: wp-admin/plugin-install.php:114
 msgid "You can also browse a user&#8217;s favorite plugins, by using the Favorites link above the plugins list and entering their WordPress.org username."
-msgstr "Du kan även bläddra bland någon användares favorittillägg genom att använda länken ”Favoriter” över tilläggslistan och ange deras användarnamn på WordPress.org."
+msgstr "Du kan även bläddra bland någon användares favorittillägg genom att använda länken ”Favoriter” ovan tilläggslistan och ange deras användarnamn på WordPress.org."
 
 #: wp-admin/plugin-install.php:112
 msgid "If you know what you are looking for, Search is your best bet. The Search screen has options to search the WordPress Plugin Directory for a particular Term, Author, or Tag. You can also search the directory by selecting popular tags. Tags in larger type mean more plugins have been labeled with that tag."
@@ -12485,7 +12485,7 @@ msgstr "Ditt användarnamn kan inte ändras, men du kan använda andra fält fö
 
 #: wp-admin/comment.php:65
 msgid "You can also moderate the comment from this screen using the Status box, where you can also change the timestamp of the comment."
-msgstr "Du kan också granska kommentaren från den här skärmen genom att använda statusrutan, där du också kan ändra tidsstämpeln för kommentaren."
+msgstr "Du kan även granska kommentaren från denna vy genom att använda statusrutan, där du dessutom kan ändra kommentarens tidsstämpel."
 
 #: wp-admin/comment.php:64
 msgid "You can edit the information left in a comment if needed. This is often useful when you notice that a commenter has made a typographical error."
@@ -15351,7 +15351,7 @@ msgstr "Kunde inte skapa temporär fil."
 
 #: wp-admin/includes/file.php:1158
 msgid "Invalid URL Provided."
-msgstr "Ogiltig URL angiven."
+msgstr "Ogiltig URL tillhandahållen."
 
 #: wp-admin/includes/file.php:931
 msgid "Specified file failed upload test."

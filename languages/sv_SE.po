@@ -2,12 +2,12 @@
 # This file is distributed under the same license as the WordPress - 6.3.x - Development package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2023-09-13 14:30:38+0000\n"
+"PO-Revision-Date: 2023-09-22 09:07:26+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: GlotPress/4.0.0-alpha.7\n"
+"X-Generator: GlotPress/4.0.0-alpha.8\n"
 "Language: sv_SE\n"
 "Project-Id-Version: WordPress - 6.3.x - Development\n"
 
@@ -13706,7 +13706,7 @@ msgstr "Redigera fler uppgifter"
 
 #: wp-includes/media-template.php:554
 msgid "View attachment page"
-msgstr "Visa bilagssida"
+msgstr "Visa bilagans sida"
 
 #: wp-includes/media-template.php:449 wp-admin/includes/media.php:3338
 #: wp-admin/includes/media.php:3340
@@ -14860,7 +14860,7 @@ msgstr "Bädda in mediaspelare"
 
 #: wp-includes/media-template.php:872
 msgid "Link to Attachment Page"
-msgstr "Länka till bilagssida"
+msgstr "Länka till bilagans sida"
 
 #: wp-includes/media-template.php:865
 msgid "Link to Media File"
@@ -17487,7 +17487,7 @@ msgstr "Filen är tom. Försök med en annan."
 
 #: wp-includes/script-loader.php:958
 msgid "You have attempted to queue too many files."
-msgstr "Du har försökt att kösätta för många filer."
+msgstr "Du har försökt sätta för många filer i kö."
 
 #: wp-includes/script-loader.php:946
 msgid "This feature requires inline frames. You have iframes disabled or your browser does not support them."
