@@ -64,9 +64,187 @@ ul {
 }
 
 /* Varukorg */
+
 .page-content {
   width: 100%;
+  height: 80vh;
   display: flex;
   flex-direction: column;
+  align-items: center;
+}
+
+.heading-container {
+  width: 80%;
+  margin: 20px 0;
+  text-align: center;
+  border-bottom: 1px solid #333;
+}
+
+thead {
+  display: none;
+}
+
+.shop-container {
+  width: 80%;
+  margin: 40px 0;
+}
+
+.woocommerce {
+  width: 100%;
+  display: flex;
   justify-content: space-between;
+}
+
+.woocommerce-cart-form {
+  width: 35%;
+  padding: 20px;
+  background-color: #ebebeb;
+}
+
+.cart-collaterals {
+  width: 65%;
+  padding-left: 60px;
+}
+
+.cart_totals h2 {
+  display: none;
+}
+
+.product-subtotal {
+  display: none;
+}
+
+.attachment-woocommerce_thumbnail {
+  padding: 10px;
+  width: 50px;
+  height: 50px;
+}
+
+.product-name {
+  padding: 10px;
+  color: black;
+}
+
+.product-price {
+  padding: 10px;
+}
+
+.product-quantity input {
+  margin-left: 10px;
+  padding: 10px;
+  width: 30px;
+  text-align: center;
+}
+
+.quantity label {
+  display: none;
+}
+
+.woocommerce-shipping-totals th {
+  display: block;
+  text-align: left;
+}
+
+.woocommerce-shipping-totals td {
+  display: block;
+  padding: 20px 0;
+}
+
+.cart-subtotal {
+  display: none;
+}
+
+#shipping_method {
+  padding: 0;
+  display: block;
+}
+
+#shipping_method li {
+  padding: 10px;
+  margin: 5px 0;
+  background-color: #333;
+  color: white;
+  border: none;
+  border-radius: 5px;
+}
+
+.woocommerce-shipping-destination {
+  display: none;
+}
+
+.woocommerce-shipping-calculator {
+  display: none;
+}
+
+#shipping_method li label {
+  font-size: 16px;
+  padding: 10px;
+}
+
+.order-total th {
+  text-align: start;
+  display: block;
+}
+
+.coupon {
+  margin: 40px 0;
+}
+
+.coupon label {
+  display: block;
+}
+
+.order-total {
+  display: flex;
+  margin: 40px 0 0 0;
+}
+
+.order-total th {
+  margin-right: 20px;
+  font-size: 32px;
+}
+
+.woocommerce-shipping-totals th {
+  font-size: 26px;
+}
+
+.order-total td {
+  font-size: 32px;
+}
+
+.wc-proceed-to-checkout {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.wc-proceed-to-checkout a {
+  color: black;
+  text-decoration: underline;
+}
+
+.woocommerce-message {
+  display: none;
+}
+
+/* Kassa */
+
+.woocommerce-MyAccount-navigation {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.woocommerce-MyAccount-navigation ul {
+  display: flex;
+}
+
+.woocommerce-MyAccount-navigation ul li {
+  padding: 10px;
+  border: 1px solid black;
+  margin: 5px;
+}
+
+.woocommerce-MyAccount-navigation ul li a {
+  color: black;
 }
