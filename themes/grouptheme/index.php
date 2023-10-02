@@ -34,6 +34,7 @@ else :
     echo '<p>Inga nyheter att visa.</p>';
 endif;
 ?>
+
 </div>
 </div>
 
