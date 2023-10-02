@@ -13,6 +13,11 @@
     <div class="header-container">
         <h1><a class="general-link" href="<?php echo esc_url(home_url('/')); ?>"><?php bloginfo("name") ?></a></h1>
     </div>
+
+    <div class="input">
+        <?php get_search_form(); ?>
+    </div>
+    
     <div class="page-menu">
         <?php wp_nav_menu(array('theme_location' => 'Header')); ?>
     </div>
