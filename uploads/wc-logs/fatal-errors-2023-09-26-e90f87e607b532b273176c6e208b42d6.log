@@ -1,0 +1,32 @@
+2023-09-26T12:28:57+00:00 CRITICAL Uncaught TypeError: in_array(): Argument #2 ($haystack) must be of type array, string given in C:\MAMP\htdocs\gruppuppgift\wordpress\wp-includes\theme.php:3138
+Stack trace:
+#0 C:\MAMP\htdocs\gruppuppgift\wordpress\wp-includes\theme.php(3138): in_array('product', 'woocommerce', true)
+#1 C:\MAMP\htdocs\gruppuppgift\wordpress\wp-admin\edit-form-advanced.php(86): current_theme_supports('post-thumbnails', 'product')
+#2 C:\MAMP\htdocs\gruppuppgift\wordpress\wp-admin\post.php(206): require('C:\\MAMP\\htdocs\\...')
+#3 {main}
+  thrown i C:\MAMP\htdocs\gruppuppgift\wordpress\wp-includes\theme.php på rad 3138
+
+2023-09-26T12:30:31+00:00 CRITICAL Uncaught TypeError: in_array(): Argument #2 ($haystack) must be of type array, string given in C:\MAMP\htdocs\gruppuppgift\wordpress\wp-includes\theme.php:3138
+Stack trace:
+#0 C:\MAMP\htdocs\gruppuppgift\wordpress\wp-includes\theme.php(3138): in_array('product', 'woocommerce', true)
+#1 C:\MAMP\htdocs\gruppuppgift\wordpress\wp-admin\edit-form-advanced.php(86): current_theme_supports('post-thumbnails', 'product')
+#2 C:\MAMP\htdocs\gruppuppgift\wordpress\wp-admin\post.php(206): require('C:\\MAMP\\htdocs\\...')
+#3 {main}
+  thrown i C:\MAMP\htdocs\gruppuppgift\wordpress\wp-includes\theme.php på rad 3138
+
+2023-09-26T12:39:56+00:00 CRITICAL Uncaught TypeError: in_array(): Argument #2 ($haystack) must be of type array, string given in C:\MAMP\htdocs\gruppuppgift\wordpress\wp-includes\theme.php:3138
+Stack trace:
+#0 C:\MAMP\htdocs\gruppuppgift\wordpress\wp-includes\theme.php(3138): in_array('product', 'woocommerce', true)
+#1 C:\MAMP\htdocs\gruppuppgift\wordpress\wp-admin\edit-form-advanced.php(86): current_theme_supports('post-thumbnails', 'product')
+#2 C:\MAMP\htdocs\gruppuppgift\wordpress\wp-admin\post.php(206): require('C:\\MAMP\\htdocs\\...')
+#3 {main}
+  thrown i C:\MAMP\htdocs\gruppuppgift\wordpress\wp-includes\theme.php på rad 3138
+
+2023-09-26T12:40:18+00:00 CRITICAL Uncaught TypeError: in_array(): Argument #2 ($haystack) must be of type array, string given in C:\MAMP\htdocs\gruppuppgift\wordpress\wp-includes\theme.php:3138
+Stack trace:
+#0 C:\MAMP\htdocs\gruppuppgift\wordpress\wp-includes\theme.php(3138): in_array('product', 'woocommerce', true)
+#1 C:\MAMP\htdocs\gruppuppgift\wordpress\wp-admin\edit-form-advanced.php(86): current_theme_supports('post-thumbnails', 'product')
+#2 C:\MAMP\htdocs\gruppuppgift\wordpress\wp-admin\post.php(206): require('C:\\MAMP\\htdocs\\...')
+#3 {main}
+  thrown i C:\MAMP\htdocs\gruppuppgift\wordpress\wp-includes\theme.php på rad 3138
+

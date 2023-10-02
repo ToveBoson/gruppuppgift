@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="<?php bloginfo("stylesheet_url"); ?>" type="text/css" />
 </head>
 <body>
+    <?php wp_head();?>
     
 <header class="welcome-header">
     <div class="header-container">
