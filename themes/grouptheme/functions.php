@@ -1,6 +1,7 @@
 <?php function wpb_custom_new_menu() {
     register_nav_menu('Header',__('Header'));
     register_nav_menu('Footer',__('Footer'));
+    register_nav_menu('Stores',__('Stores'));
 }
 
 
@@ -22,13 +23,13 @@ $labels = array(
 'menu_name' => _x('Stores', 'admin menu'),
 'name_admin_bar' => _x('Stores', 'admin bar'),
 'add_new' => _x('Add New', 'add new'),
-'add_new_item' => __('Add New news'),
-'new_item' => __('New news'),
-'edit_item' => __('Edit news'),
-'view_item' => __('View news'),
-'all_items' => __('All news'),
-'search_items' => __('Search news'),
-'not_found' => __('No news found.'),
+'add_new_item' => __('Add New stores'),
+'new_item' => __('New stores'),
+'edit_item' => __('Edit stores'),
+'view_item' => __('View stores'),
+'all_items' => __('All stores'),
+'search_items' => __('Search stores'),
+'not_found' => __('No stores found.'),
 );
  
 $args = array(
@@ -69,16 +70,10 @@ add_filter( 'woocommerce_package_rates', 'remove_standard_shipping', 10, 2 );
 
 
 function display_remaining_amount_for_free_shipping() {
-    // Set the minimum amount for free shipping
     $minimum_amount_for_free_shipping = 499;
-
-    // Get the current cart total
     $cart_total = WC()->cart->get_subtotal();
-
-    // Calculate the remaining amount for free shipping
     $remaining_amount = $minimum_amount_for_free_shipping - $cart_total;
 
-    // Check if the remaining amount is positive and if there are items in the cart
     if ($remaining_amount > 0 && WC()->cart->get_cart_contents_count() > 0) {
         echo '<div class="free-shipping-message">Spendera ytterligare <strong>' . wc_price($remaining_amount) . '</strong> för fri frakt!</div>';
     }

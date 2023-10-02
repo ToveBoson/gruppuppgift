@@ -33,26 +33,7 @@ else :
     echo '<p>Inga nyheter att visa.</p>';
 endif;
 ?>
-<?php
-$args = array(
-    'post_type' => 'news',
-    'posts_per_page' => -1, // Visa alla butiker
-);
 
-$butiker = new WP_Query( $args );
-
-if ( $stores->have_posts() ) :
-    while ( $butiker->have_posts() ) : $butiker->the_post();
-        // Hämta och visa butiksinformationen här
-        the_title(); // Visar butikens namn
-        the_content(); // Visar butikens beskrivning
-        // Visa andra anpassade fält för butiken här
-    endwhile;
-    wp_reset_postdata();
-else :
-    echo 'Inga butiker hittades.';
-endif;
-?>
 </div>
 </div>
 
