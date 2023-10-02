@@ -17,6 +17,7 @@
     <div class="input">
         <?php get_search_form(); ?>
     </div>
+    
     <div class="page-menu">
         <?php wp_nav_menu(array('theme_location' => 'Header')); ?>
     </div>
