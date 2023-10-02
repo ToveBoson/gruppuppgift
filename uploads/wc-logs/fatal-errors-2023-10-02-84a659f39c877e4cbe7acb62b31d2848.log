@@ -1,0 +1,88 @@
+2023-10-02T09:19:15+00:00 CRITICAL Uncaught Error: Call to a member function have_posts() on null in /Applications/MAMP/htdocs/gruppuppgift/wordpress/wp-content/themes/grouptheme/index.php:44
+Stack trace:
+#0 /Applications/MAMP/htdocs/gruppuppgift/wordpress/wp-includes/template-loader.php(106): include()
+#1 /Applications/MAMP/htdocs/gruppuppgift/wordpress/wp-blog-header.php(19): require_once('/Applications/M...')
+#2 /Applications/MAMP/htdocs/gruppuppgift/wordpress/index.php(17): require('/Applications/M...')
+#3 {main}
+  thrown i /Applications/MAMP/htdocs/gruppuppgift/wordpress/wp-content/themes/grouptheme/index.php på rad 44
+
+2023-10-02T09:19:36+00:00 CRITICAL Uncaught Error: Call to a member function have_posts() on null in /Applications/MAMP/htdocs/gruppuppgift/wordpress/wp-content/themes/grouptheme/index.php:44
+Stack trace:
+#0 /Applications/MAMP/htdocs/gruppuppgift/wordpress/wp-includes/template-loader.php(106): include()
+#1 /Applications/MAMP/htdocs/gruppuppgift/wordpress/wp-blog-header.php(19): require_once('/Applications/M...')
+#2 /Applications/MAMP/htdocs/gruppuppgift/wordpress/index.php(17): require('/Applications/M...')
+#3 {main}
+  thrown i /Applications/MAMP/htdocs/gruppuppgift/wordpress/wp-content/themes/grouptheme/index.php på rad 44
+
+2023-10-02T09:21:15+00:00 CRITICAL Uncaught Error: Call to a member function have_posts() on null in /Applications/MAMP/htdocs/gruppuppgift/wordpress/wp-content/themes/grouptheme/index.php:44
+Stack trace:
+#0 /Applications/MAMP/htdocs/gruppuppgift/wordpress/wp-includes/template-loader.php(106): include()
+#1 /Applications/MAMP/htdocs/gruppuppgift/wordpress/wp-blog-header.php(19): require_once('/Applications/M...')
+#2 /Applications/MAMP/htdocs/gruppuppgift/wordpress/index.php(17): require('/Applications/M...')
+#3 {main}
+  thrown i /Applications/MAMP/htdocs/gruppuppgift/wordpress/wp-content/themes/grouptheme/index.php på rad 44
+
+2023-10-02T09:21:16+00:00 CRITICAL Uncaught Error: Call to a member function have_posts() on null in /Applications/MAMP/htdocs/gruppuppgift/wordpress/wp-content/themes/grouptheme/index.php:44
+Stack trace:
+#0 /Applications/MAMP/htdocs/gruppuppgift/wordpress/wp-includes/template-loader.php(106): include()
+#1 /Applications/MAMP/htdocs/gruppuppgift/wordpress/wp-blog-header.php(19): require_once('/Applications/M...')
+#2 /Applications/MAMP/htdocs/gruppuppgift/wordpress/index.php(17): require('/Applications/M...')
+#3 {main}
+  thrown i /Applications/MAMP/htdocs/gruppuppgift/wordpress/wp-content/themes/grouptheme/index.php på rad 44
+
+2023-10-02T09:21:43+00:00 CRITICAL Uncaught Error: Call to a member function have_posts() on null in /Applications/MAMP/htdocs/gruppuppgift/wordpress/wp-content/themes/grouptheme/index.php:44
+Stack trace:
+#0 /Applications/MAMP/htdocs/gruppuppgift/wordpress/wp-includes/template-loader.php(106): include()
+#1 /Applications/MAMP/htdocs/gruppuppgift/wordpress/wp-blog-header.php(19): require_once('/Applications/M...')
+#2 /Applications/MAMP/htdocs/gruppuppgift/wordpress/index.php(17): require('/Applications/M...')
+#3 {main}
+  thrown i /Applications/MAMP/htdocs/gruppuppgift/wordpress/wp-content/themes/grouptheme/index.php på rad 44
+
+2023-10-02T09:21:46+00:00 CRITICAL Uncaught Error: Call to a member function have_posts() on null in /Applications/MAMP/htdocs/gruppuppgift/wordpress/wp-content/themes/grouptheme/index.php:44
+Stack trace:
+#0 /Applications/MAMP/htdocs/gruppuppgift/wordpress/wp-includes/template-loader.php(106): include()
+#1 /Applications/MAMP/htdocs/gruppuppgift/wordpress/wp-blog-header.php(19): require_once('/Applications/M...')
+#2 /Applications/MAMP/htdocs/gruppuppgift/wordpress/index.php(17): require('/Applications/M...')
+#3 {main}
+  thrown i /Applications/MAMP/htdocs/gruppuppgift/wordpress/wp-content/themes/grouptheme/index.php på rad 44
+
+2023-10-02T09:21:49+00:00 CRITICAL Uncaught Error: Call to a member function have_posts() on null in /Applications/MAMP/htdocs/gruppuppgift/wordpress/wp-content/themes/grouptheme/index.php:44
+Stack trace:
+#0 /Applications/MAMP/htdocs/gruppuppgift/wordpress/wp-includes/template-loader.php(106): include()
+#1 /Applications/MAMP/htdocs/gruppuppgift/wordpress/wp-blog-header.php(19): require_once('/Applications/M...')
+#2 /Applications/MAMP/htdocs/gruppuppgift/wordpress/index.php(17): require('/Applications/M...')
+#3 {main}
+  thrown i /Applications/MAMP/htdocs/gruppuppgift/wordpress/wp-content/themes/grouptheme/index.php på rad 44
+
+2023-10-02T09:25:25+00:00 CRITICAL Uncaught Error: Call to a member function have_posts() on null in /Applications/MAMP/htdocs/gruppuppgift/wordpress/wp-content/themes/grouptheme/index.php:44
+Stack trace:
+#0 /Applications/MAMP/htdocs/gruppuppgift/wordpress/wp-includes/template-loader.php(106): include()
+#1 /Applications/MAMP/htdocs/gruppuppgift/wordpress/wp-blog-header.php(19): require_once('/Applications/M...')
+#2 /Applications/MAMP/htdocs/gruppuppgift/wordpress/index.php(17): require('/Applications/M...')
+#3 {main}
+  thrown i /Applications/MAMP/htdocs/gruppuppgift/wordpress/wp-content/themes/grouptheme/index.php på rad 44
+
+2023-10-02T09:26:36+00:00 CRITICAL Uncaught Error: Call to a member function have_posts() on null in /Applications/MAMP/htdocs/gruppuppgift/wordpress/wp-content/themes/grouptheme/index.php:44
+Stack trace:
+#0 /Applications/MAMP/htdocs/gruppuppgift/wordpress/wp-includes/template-loader.php(106): include()
+#1 /Applications/MAMP/htdocs/gruppuppgift/wordpress/wp-blog-header.php(19): require_once('/Applications/M...')
+#2 /Applications/MAMP/htdocs/gruppuppgift/wordpress/index.php(17): require('/Applications/M...')
+#3 {main}
+  thrown i /Applications/MAMP/htdocs/gruppuppgift/wordpress/wp-content/themes/grouptheme/index.php på rad 44
+
+2023-10-02T09:26:57+00:00 CRITICAL Uncaught Error: Call to a member function have_posts() on null in /Applications/MAMP/htdocs/gruppuppgift/wordpress/wp-content/themes/grouptheme/index.php:44
+Stack trace:
+#0 /Applications/MAMP/htdocs/gruppuppgift/wordpress/wp-includes/template-loader.php(106): include()
+#1 /Applications/MAMP/htdocs/gruppuppgift/wordpress/wp-blog-header.php(19): require_once('/Applications/M...')
+#2 /Applications/MAMP/htdocs/gruppuppgift/wordpress/index.php(17): require('/Applications/M...')
+#3 {main}
+  thrown i /Applications/MAMP/htdocs/gruppuppgift/wordpress/wp-content/themes/grouptheme/index.php på rad 44
+
+2023-10-02T09:31:47+00:00 CRITICAL Uncaught Error: Call to a member function have_posts() on null in /Applications/MAMP/htdocs/gruppuppgift/wordpress/wp-content/themes/grouptheme/index.php:44
+Stack trace:
+#0 /Applications/MAMP/htdocs/gruppuppgift/wordpress/wp-includes/template-loader.php(106): include()
+#1 /Applications/MAMP/htdocs/gruppuppgift/wordpress/wp-blog-header.php(19): require_once('/Applications/M...')
+#2 /Applications/MAMP/htdocs/gruppuppgift/wordpress/index.php(17): require('/Applications/M...')
+#3 {main}
+  thrown i /Applications/MAMP/htdocs/gruppuppgift/wordpress/wp-content/themes/grouptheme/index.php på rad 44
+
