@@ -5,7 +5,7 @@
         <h1 class="page-heading"><?php wp_title("")?></h1>
     </div>
     <div class="news-page">
-        hejsan
+        
         
 <?php
 $args = array(
