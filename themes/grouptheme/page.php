@@ -3,13 +3,9 @@
 <?php get_header(); ?>
 
 <div class="page-content">
-<<<<<<< HEAD
     <div class="heading-container">
     <h1 class="page-heading"><?php wp_title(""); ?></h1>
     </div>
-=======
-
->>>>>>> feature-tove-branch
     <?php 
     if (have_posts()) :
         while (have_posts()) : the_post();
