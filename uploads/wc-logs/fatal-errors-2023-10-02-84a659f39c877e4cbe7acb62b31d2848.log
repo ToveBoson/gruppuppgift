@@ -86,3 +86,5 @@ Stack trace:
 #3 {main}
   thrown i /Applications/MAMP/htdocs/gruppuppgift/wordpress/wp-content/themes/grouptheme/index.php på rad 44
 
+2023-10-02T11:07:40+00:00 CRITICAL syntax error, unexpected '}', expecting end of file i /Applications/MAMP/htdocs/gruppuppgift/wordpress/wp-content/themes/grouptheme/functions.php på rad 85
+
