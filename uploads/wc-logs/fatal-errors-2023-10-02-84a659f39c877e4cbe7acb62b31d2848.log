@@ -200,3 +200,9 @@ Stack trace:
 #3 {main}
   thrown i /Applications/MAMP/htdocs/gruppuppgift/wordpress/wp-content/themes/grouptheme/index.php på rad 44
 
+2023-10-02T13:22:52+00:00 CRITICAL Cannot redeclare post_type_stores() (previously declared in /Applications/MAMP/htdocs/gruppuppgift/wordpress/wp-content/themes/grouptheme/functions.php:10) i /Applications/MAMP/htdocs/gruppuppgift/wordpress/wp-content/themes/grouptheme/functions.php på rad 48
+
+2023-10-02T13:23:17+00:00 CRITICAL Cannot redeclare post_type_stores() (previously declared in /Applications/MAMP/htdocs/gruppuppgift/wordpress/wp-content/themes/grouptheme/functions.php:10) i /Applications/MAMP/htdocs/gruppuppgift/wordpress/wp-content/themes/grouptheme/functions.php på rad 48
+
+2023-10-02T13:23:19+00:00 CRITICAL Cannot redeclare post_type_stores() (previously declared in /Applications/MAMP/htdocs/gruppuppgift/wordpress/wp-content/themes/grouptheme/functions.php:10) i /Applications/MAMP/htdocs/gruppuppgift/wordpress/wp-content/themes/grouptheme/functions.php på rad 48
+
