@@ -20,7 +20,7 @@ body {
   justify-content: space-between;
   align-items: center;
   padding-left: 2em;
-  background-color: #f0f0f0;
+  box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
   margin-bottom: 40px;
 }
 
@@ -41,9 +41,9 @@ body {
 }
 
 #searchform #s {
-  border: none;
   padding: 5px 10px;
   border-radius: 5px;
+  border: 1px solid #e3e3e3;
 }
 
 .menu a {
@@ -71,8 +71,9 @@ body {
 .product-categories li a {
   text-decoration: none;
   background-color: black;
-  padding: 10px 15px;
+  padding: 8px 15px;
   color: white;
+  font-size: 14px;
 }
 
 .shop-container {
@@ -136,11 +137,11 @@ body {
 
 .shop-container .woocommerce ul.products li.product .button {
   width: 80%;
-  background-color: black;
-  color: white;
+  background-color: #f0f0f0;
   font-weight: lighter;
   font-size: 14px;
   text-transform: uppercase;
+  color: black;
 }
 
 .woocommerce-loop-product__title {
@@ -186,7 +187,6 @@ body {
   width: 90%;
   margin: 20px 0;
   text-align: center;
-  border-bottom: 1px solid #777;
 }
 
 thead {
