@@ -59,6 +59,22 @@ body {
   color: rgb(37, 37, 37);
 }
 
+.product-categories ul {
+  display: flex;
+}
+
+.product-categories li {
+  padding: 10px;
+  list-style-type: none;
+}
+
+.product-categories li a {
+  text-decoration: none;
+  background-color: black;
+  padding: 10px 15px;
+  color: white;
+}
+
 .shop-container {
   width: 90%;
   display: flex;
@@ -120,7 +136,7 @@ body {
 
 .shop-container .woocommerce ul.products li.product .button {
   width: 80%;
-  background-color: rgb(37, 37, 37);
+  background-color: black;
   color: white;
   font-weight: lighter;
   font-size: 14px;
