@@ -11,7 +11,7 @@ body {
   padding: 0;
   width: 100%;
   font-family: "Poppins";
-  color: rgb(37, 37, 37);
+  color: rgb(16, 16, 16);
 }
 
 .welcome-header {
@@ -20,8 +20,9 @@ body {
   justify-content: space-between;
   align-items: center;
   padding-left: 2em;
+  background-color: #f9f9fb;
   box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
-  margin-bottom: 40px;
+  margin-bottom: 60px;
 }
 
 .welcome-header ul {
@@ -35,7 +36,7 @@ body {
 
 #searchsubmit {
   background-color: #e3e3e3;
-  border: none;
+  border: 1px solid #e3e3e3;
   padding: 5px 10px;
   border-radius: 5px;
 }
@@ -48,7 +49,7 @@ body {
 
 .menu a {
   text-decoration: none;
-  color: rgb(37, 37, 37);
+  color: rgb(16, 16, 16);
   font-family: "Poppins";
 }
 
@@ -56,21 +57,25 @@ body {
   text-decoration: none;
   font-size: 26px;
   font-family: "Poppins";
-  color: rgb(37, 37, 37);
+  color: rgb(16, 16, 16);
+  font-weight: lighter;
 }
 
+/* Butik */
+
 .product-categories ul {
+  width: 100%;
   display: flex;
 }
 
 .product-categories li {
-  padding: 10px;
+  padding: 0 10px;
   list-style-type: none;
 }
 
 .product-categories li a {
   text-decoration: none;
-  background-color: black;
+  background-color: rgb(16, 16, 16);
   padding: 8px 15px;
   color: white;
   font-size: 14px;
@@ -79,6 +84,8 @@ body {
 .shop-container {
   width: 90%;
   display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .shop-container .woocommerce {
@@ -89,9 +96,12 @@ body {
 
 .orderby {
   padding: 8px 10px;
+  width: 290px;
   border: none;
   border-radius: 5px;
-  background-color: #f0f0f0;
+  background-color: white;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px,
+    rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
   font-size: 16px;
   font-family: "Poppins";
 }
@@ -100,7 +110,6 @@ body {
   width: 100%;
   display: flex;
   flex-wrap: wrap;
-
   align-items: center;
   padding: 0;
   margin: 0;
@@ -108,7 +117,6 @@ body {
 
 .shop-container .woocommerce ul.products li.product {
   width: 33.33;
-  height: 400px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -121,10 +129,9 @@ body {
 
 .shop-container .woocommerce ul.products li.product a {
   width: 100%;
+  height: auto;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  text-align: center;
   margin: 0;
   padding: 10px;
 }
@@ -136,12 +143,7 @@ body {
 }
 
 .shop-container .woocommerce ul.products li.product .button {
-  width: 80%;
-  background-color: #f0f0f0;
-  font-weight: lighter;
-  font-size: 14px;
-  text-transform: uppercase;
-  color: black;
+  display: none;
 }
 
 .woocommerce-loop-product__title {
@@ -170,7 +172,7 @@ body {
 
 .footer {
   height: 30vh;
-  background-color: #f0f0f0;
+  background-color: #f9f9fb;
 }
 
 /* Varukorg */
@@ -370,12 +372,16 @@ thead {
 
 .woocommerce-MyAccount-navigation ul li {
   padding: 10px;
-  border: 1px solid black;
+
+  background-color: rgb(16, 16, 16);
   margin: 5px;
+  list-style-type: none;
 }
 
 .woocommerce-MyAccount-navigation ul li a {
-  color: black;
+  text-decoration: none;
+  color: white;
+  font-size: 14px;
 }
 
 .woocommerce-checkout {
@@ -430,8 +436,28 @@ thead {
 }
 
 .woocommerce-MyAccount-content {
-  width: 80%;
+  width: 100%;
   text-align: center;
+}
+
+.woocommerce-MyAccount-content p a,
+.woocommerce-info a {
+  color: rgb(16, 16, 16);
+  font-weight: bold;
+}
+
+h3 {
+  font-size: 18px;
+  font-family: "Poppins";
+}
+
+#payment .wc_payment_method {
+  background-color: #f9f9fb;
+  width: 20%;
+}
+
+#shipping_method {
+  width: 20%;
 }
 
 /* Nyheter */
