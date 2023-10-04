@@ -3,6 +3,7 @@
 <div class="news-wrapper">
     <div class="headingcontainer">
         <h1 class="page-heading"><?php wp_title("")?></h1>
+
     </div>
     <div class="news-page">
         
@@ -15,6 +16,8 @@ $args = array(
 
 $news_query = new WP_Query($args);
 
+
+
 if ($news_query->have_posts()) :
     while ($news_query->have_posts()) : $news_query->the_post();
         ?>
@@ -23,7 +26,8 @@ if ($news_query->have_posts()) :
                     <?php the_post_thumbnail(); ?>
                 </div>
             <h2 class="news-title"><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h2>
-            <p class="news-text"><?php the_excerpt(); ?></p>
+            <p class="news-text"><?php the_excerpt();?></p>
+
          
         </article>
      

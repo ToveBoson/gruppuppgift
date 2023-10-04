@@ -4,7 +4,7 @@
 
 <div class="page-content">
     <div class="heading-container">
-    <h1 class="page-heading"><?php wp_title(""); ?></h1>
+    <h1 class="page-heading"><?php the_title(); ?></h1>
     </div>
     <?php 
     if (have_posts()) :
