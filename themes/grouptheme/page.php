@@ -3,8 +3,8 @@
 <?php get_header(); ?>
 
 <div class="page-content">
-<div class="heading-container">
-    <h1 class="page-heading"><?php wp_title(""); ?></h1>
+<div class="headingcontainer">
+    <h1 class="page-heading"><?php the_title(); ?></h1>
     </div>
     <?php if (is_shop()) : // Kolla om det är butikssidan. ?>
         <div class="product-categories">
