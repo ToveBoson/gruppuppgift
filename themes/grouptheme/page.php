@@ -3,14 +3,43 @@
 <?php get_header(); ?>
 
 <div class="page-content">
-    <div class="heading-container">
+<div class="headingcontainer">
     <h1 class="page-heading"><?php the_title(); ?></h1>
     </div>
+    <?php if (is_shop()) : // Kolla om det är butikssidan. ?>
+        <div class="product-categories">
+            <?php
+            $orderby = 'name';
+            $order = 'asc';
+            $hide_empty = false ;
+            $cat_args = array(
+                'orderby'    => $orderby,
+                'order'      => $order,
+                'hide_empty' => $hide_empty,
+            );
+
+            $product_categories = get_terms( 'product_cat', $cat_args );
+
+            if( !empty($product_categories) ){
+                echo '<ul>';
+                foreach ($product_categories as $key => $category) {
+                    echo '<li>';
+                    echo '<a href="'.get_term_link($category).'" >';
+                    echo $category->name;
+                    echo '</a>';
+                    echo '</li>';
+                }
+                echo '</ul>';
+            }
+            ?>
+        </div>
+    <?php endif; ?>
+
     <?php 
     if (have_posts()) :
         while (have_posts()) : the_post();
             if (is_checkout()) { // Kontrollera om det är kassasidan.
-                // Visa inloggnings- och registreringsformulär med länkar för att logga in.
+                
                 echo do_shortcode('[woocommerce_my_account login_text="Logga in" register_text="Skapa konto"]');
             }
             ?>
@@ -23,6 +52,7 @@
         _e('Det finns inga produkter.');
     endif;
     ?>
+</div>
 </div>
 
 
