@@ -2,6 +2,15 @@
 
 <?php get_header(); ?>
 
+<div class="hero">
+    <?php $hero_image_url = get_field('hero');
+    if ($hero_image_url) {
+        echo '<img src="' . esc_url($hero_image_url) . '" alt="Hero-bild" />';
+    } else {
+        echo 'Ingen hero-bild tillgänglig.';
+    }
+    ?>
+</div>
 <div class="page-content">
 <div class="headingcontainer">
     <h1 class="page-heading"><?php the_title(); ?></h1>

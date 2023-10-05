@@ -1,10 +1,10 @@
 <?php get_header(); ?>
 
-<div class="news-wrapper">
+<div class="news-wrapper" id="news-wrapper">
     <div class="headingcontainer">
         <h1 class="page-heading"><?php wp_title("")?></h1>
     </div>
-    <div class="news-page">
+    <div class="news-page" id="news-page">
         
 <?php
 $args = array(
