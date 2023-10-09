@@ -2,7 +2,7 @@
 
 <div class="news-wrapper">
     <div class="headingcontainer">
-        <h1 class="page-heading"><?php wp_title("")?></h1>
+        <h1 class="page-heading"><?php wp_title();?></h1>
 
     </div>
     <div class="news-page">

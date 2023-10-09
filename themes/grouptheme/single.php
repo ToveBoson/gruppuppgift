@@ -2,7 +2,7 @@
 
 <div class="single-wrapper">
     <div class="title-container">
-        <h2><?php wp_title("");?></h2>
+        <h2><?php the_title();?></h2>
     </div>
     <div class="single-page">
     

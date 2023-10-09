@@ -18,6 +18,7 @@
                 'hide_empty' => $hide_empty,
             );
 
+
             $product_categories = get_terms( 'product_cat', $cat_args );
 
             if( !empty($product_categories) ){

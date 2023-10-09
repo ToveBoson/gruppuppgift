@@ -11,7 +11,14 @@
     
     <h2><a href="<?php the_permalink() ?>"><?php the_title(); ?></a></h2>
     <p><?php the_field('adress') ?></p>
-    <p><?php the_excerpt(); ?></p>
+
+<?php if(is_page('uppsala') || is_page('stockholm')) {
+the_content();
+} ?>
+
+
+
+
     <?php
     endwhile; ?>
     

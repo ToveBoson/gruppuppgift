@@ -82,3 +82,26 @@ function display_remaining_amount_for_free_shipping() {
 }
 add_action('woocommerce_before_cart', 'display_remaining_amount_for_free_shipping');
 
+
+
+add_action( 'woocommerce_before_single_variation', 'action_wc_before_single_variation' );
+function action_wc_before_single_variation() {
+    ?>
+    <script type="text/javascript">
+    (function($){
+        // Check for the show_variation event that triggers when a variation is selected.
+        $('form.variations_form').on('show_variation', function(event, data){
+            //If variation is on sale, display the sale badge
+            if(data.display_price < data.display_regular_price){
+                $(".product-type-variable .onsale").css("display", "block");
+            }
+            //Otherwise hide the sale badge
+            else {
+                $(".product-type-variable .onsale").css("display", "none");
+            }
+        });
+    })(jQuery);
+    </script>
+    <?php
+}
+
