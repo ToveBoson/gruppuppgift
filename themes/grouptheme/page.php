@@ -47,9 +47,9 @@
     <?php 
     if (have_posts()) :
         while (have_posts()) : the_post();
-            if (is_checkout()) { // Kontrollera om det är kassasidan.
+            if (is_checkout() ) { 
                 
-                echo do_shortcode('[woocommerce_my_account login_text="Logga in" register_text="Skapa konto"]');
+                echo do_shortcode('[woocommerce_my_account login_text="Logga in" register_text="Skapa konto"]');  
             }
             ?>
             <div class="shop-container">

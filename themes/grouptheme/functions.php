@@ -79,3 +79,6 @@ function display_remaining_amount_for_free_shipping() {
     }
 }
 add_action('woocommerce_before_cart', 'display_remaining_amount_for_free_shipping');
+
+add_action('woocommerce_before_single_product', 'show_product_reviews');
+
