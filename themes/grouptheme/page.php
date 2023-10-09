@@ -6,8 +6,6 @@
     <?php $hero_image_url = get_field('hero');
     if ($hero_image_url) {
         echo '<img src="' . esc_url($hero_image_url) . '" alt="Hero-bild" />';
-    } else {
-        echo 'Ingen hero-bild tillgänglig.';
     }
     ?>
 </div>
