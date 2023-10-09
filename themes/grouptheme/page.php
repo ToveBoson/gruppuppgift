@@ -2,6 +2,15 @@
 
 <?php get_header(); ?>
 
+<div class="hero">
+    <?php $hero_image_url = get_field('hero');
+    if ($hero_image_url) {
+        echo '<img src="' . esc_url($hero_image_url) . '" alt="Hero-bild" />';
+    } else {
+        echo 'Ingen hero-bild tillgänglig.';
+    }
+    ?>
+</div>
 <div class="page-content">
 <div class="headingcontainer">
     <h1 class="page-heading"><?php the_title(); ?></h1>
@@ -39,9 +48,9 @@
     <?php 
     if (have_posts()) :
         while (have_posts()) : the_post();
-            if (is_checkout()) { // Kontrollera om det är kassasidan.
+            if (is_checkout() ) { 
                 
-                echo do_shortcode('[woocommerce_my_account login_text="Logga in" register_text="Skapa konto"]');
+                echo do_shortcode('[woocommerce_my_account login_text="Logga in" register_text="Skapa konto"]');  
             }
             ?>
             <div class="shop-container">

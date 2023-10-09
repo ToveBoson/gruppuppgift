@@ -1,0 +1,4 @@
+2023-10-08T13:55:17+00:00 CRITICAL syntax error, unexpected '}' i /Applications/MAMP/htdocs/gruppuppgift/wordpress/wp-content/themes/grouptheme/functions.php på rad 97
+
+2023-10-08T14:19:37+00:00 CRITICAL Cannot redeclare custom_product_tabs() (previously declared in /Applications/MAMP/htdocs/gruppuppgift/wordpress/wp-content/themes/grouptheme/functions.php:85) i /Applications/MAMP/htdocs/gruppuppgift/wordpress/wp-content/themes/grouptheme/functions.php på rad 118
+
