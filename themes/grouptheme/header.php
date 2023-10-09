@@ -8,6 +8,7 @@
 </head>
 <body>
     <?php wp_head();?>
+    <?php echo do_shortcode('[responsive_menu]'); ?>
     
 <header class="welcome-header">
     <div class="header-container">
